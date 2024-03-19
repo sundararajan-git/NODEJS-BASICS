@@ -4,7 +4,7 @@
 // CALL THE FILE MODULE
 const fs = require('fs')
 
-fs.readFile('./Text.txt', (err, data) => {
+fs.readFile('./Read.txt', (err, data) => {
     if (err) throw err;
     console.log(data.toString());
 })
